@@ -66,13 +66,38 @@
 
       <!-- Bottom Bar -->
       <div class="border-t border-slate-800 pt-8 mt-8">
-        <div class="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
+        <div class="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0 mb-6">
           <p class="text-slate-500 text-sm">
             &copy; {{ currentYear }} Blueberry Team. All rights reserved.
           </p>
           <div class="flex space-x-6 text-sm">
             <a href="#" class="text-slate-500 hover:text-blueberry-400 transition-colors">개인정보처리방침</a>
             <a href="#" class="text-slate-500 hover:text-blueberry-400 transition-colors">이용약관</a>
+          </div>
+        </div>
+
+        <!-- Business Info -->
+        <div class="border-t border-slate-800 pt-6">
+          <div class="text-slate-600 text-xs leading-relaxed space-y-1">
+            <p class="font-semibold text-slate-500">블루베리스토어 (BLUEBERRY STORE)</p>
+            <div class="flex flex-wrap gap-x-4 gap-y-1">
+              <span>대표: 손정우</span>
+              <span class="hidden md:inline">|</span>
+              <span>사업자등록번호: 705-28-01729</span>
+            </div>
+            <div class="flex flex-wrap gap-x-4 gap-y-1">
+              <span>주소: 대구광역시 서구 서대구로 25, 3동 403호(내당동, 삼익맨션)</span>
+            </div>
+            <div class="flex flex-wrap gap-x-4 gap-y-1">
+              <span>이메일: sonjungwoo9@gmail.com</span>
+              <span class="hidden md:inline">|</span>
+              <span>전화: +81 80-9698-6357</span>
+            </div>
+            <div class="flex flex-wrap gap-x-4 gap-y-1">
+              <span>업태: 도매 및 소매업</span>
+              <span class="hidden md:inline">|</span>
+              <span>종목: 전자상거래 소매업, 해외직구대행업</span>
+            </div>
           </div>
         </div>
       </div>
