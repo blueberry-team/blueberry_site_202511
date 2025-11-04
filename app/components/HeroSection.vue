@@ -21,10 +21,6 @@
         Blueberry Team
       </h1>
 
-      <p class="text-xl md:text-2xl text-slate-600 mb-4 font-light">
-        앱으로 비즈니스를 완성합니다
-      </p>
-
       <p class="text-lg md:text-xl text-blueberry-600 mb-12 font-medium">
         Professional App Development Studio
       </p>
