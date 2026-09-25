@@ -1,0 +1,14 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "rewrites": [
+    {
+      "source": "/portfolio",
+      "destination": "https://portfolio-olive-eta-vgshyark4f.vercel.app/portfolio"
+    },
+    {
+      "source": "/portfolio/:path*",
+      "destination": "https://portfolio-olive-eta-vgshyark4f.vercel.app/portfolio/:path*"
+    }
+  ],
+  "git": { "deploymentEnabled": false }
+}
